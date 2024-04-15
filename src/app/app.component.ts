@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import { NotesComponent } from './notes-list/notes.component';
 
 @Component({
@@ -10,6 +11,4 @@ import { NotesComponent } from './notes-list/notes.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent {
-
-}
+export class AppComponent {}

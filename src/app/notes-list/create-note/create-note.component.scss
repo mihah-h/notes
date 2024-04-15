@@ -1,16 +1,16 @@
 .create-note {
   display: flex;
-  gap: 6px;
+  gap: var(--gap-s);
 }
 
 .button-icon {
-  background: #FFFFFF;
-  border: #FFFFFF;
+  background-color: var(--button-background-color);
+  border: var(--button-icon-border);
   cursor: pointer;
   padding: 0;
 }
 
 .input {
-  height: 27px;
-  width: 150px;
+  height: var(--input-height);
+  width: var(--input-width);
 }

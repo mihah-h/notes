@@ -1,4 +1,4 @@
 .main {
-  max-width: 500px;
-  margin: 40px 0 0 50px;
+  max-width: var(--main-width);
+  margin: var(--main-margin);
 }

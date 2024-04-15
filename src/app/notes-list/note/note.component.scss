@@ -1,17 +1,17 @@
 .note {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: var(--gap-m);
 }
 
 .button-icon {
-  background: #FFFFFF;
-  border: #FFFFFF;
+  background-color: var(--white-color);
+  border: var(--white-color);
   cursor: pointer;
   padding: 0;
 }
 
 .text--p {
-  font-size: 19px;
+  font-size: var(--text-p-size);
 }
 
