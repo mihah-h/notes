@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class CreateNoteComponent {
   @Output() public clickOnSaved = new EventEmitter<string>();
-  @Output() public clickOnDelete = new EventEmitter<number>();
+  @Output() public clickOnDelete = new EventEmitter<void>();
 
   public value = '';
 
