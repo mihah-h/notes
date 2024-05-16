@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
-import { NotesComponent } from './notes-list/notes.component';
+import { NotesListComponent } from './notes-list/notes-list.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    NotesComponent
+    NotesListComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

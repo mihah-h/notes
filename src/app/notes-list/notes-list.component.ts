@@ -4,17 +4,17 @@ import { NoteComponent } from './note/note.component';
 import { CreateNoteComponent } from './create-note/create-note.component';
 
 @Component({
-  selector: 'app-notes',
+  selector: 'app-notes-list',
   standalone: true,
   imports: [
     NoteComponent,
     CreateNoteComponent
   ],
-  templateUrl: './notes.component.html',
-  styleUrl: './notes.component.scss',
+  templateUrl: './notes-list.component.html',
+  styleUrl: './notes-list.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class NotesComponent {
+export class NotesListComponent {
   public notesList: string[] = [];
   public createNoteComponentIsDisplayed = false;
 
